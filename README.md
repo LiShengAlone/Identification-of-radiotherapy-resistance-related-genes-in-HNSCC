@@ -3,7 +3,7 @@
 This repository hosts the experimental code and data for the paper "RGIE: A gene selection method associated with radiotherapy resistance in head and neck squamous cell carcinoma".
 
 ## Dataset acquisition
-The RNA sequencing (RNA-seq) data of HNSCC patients can be obtained from [The Cancer Genome Atlas (TCGA) database](https://portal.gdc.cancer.gov/), while information on whether the patients received radiotherapy and their survival can be obtained from [the XENA database](https://xenabrowser.net/datapages/).
+The RNA sequencing (RNA-seq) data of HNSCC patients can be obtained from [The Cancer Genome Atlas (TCGA) database](https://portal.gdc.cancer.gov/), while information on whether the patients received radiotherapy and their survival can be obtained from the [XENA database](https://xenabrowser.net/datapages/).
 
 
 ## Document description
