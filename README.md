@@ -11,10 +11,6 @@ Article link: Not published.
 The RNA sequencing (RNA-seq) data of HNSCC patients were obtained from [The Cancer Genome Atlas (TCGA) database](https://portal.gdc.cancer.gov/), while information on whether the patients received radiotherapy and their survival was obtained from [the XENA database](https://xenabrowser.net/datapages/).
 
 
-## How to Use
-
-# Enviornment
-
 ## Document description
 
 |Document|Description|
@@ -28,3 +24,13 @@ The RNA sequencing (RNA-seq) data of HNSCC patients were obtained from [The Canc
 |5.2_classifier_comparison_9_genes.ipynb|Comparison of classifier algorithms using the selected 9 genes as input.|
 |5.3_confusion matrix_9_genes.ipynb|Confusion Matrix Analysis of Classification Algorithms.|
 |6_Comparison_of_feature_selection_methods|Folder for feature selection algorithm comparisons.|
+|GENIE3.py|GENIE3 algorithm.|
+
+
+## Quick Start
+1. Run "1_EDASeq_normalization.R" to download the gene expression matrix and perform EDASeq normalization.
+2. Run "2_data_preprocessing.ipynb" to oversample radioresistance samples.
+3. Run "3_ReliefF_feature_selection.ipynb" to calculate and rank the importance of genes.
+4. Run "4.1_GENIE3 sorting (ASC), feature elimination and classification.ipynb" and "4.2_GENIE3 sorting (DESC), feature elimination and classification.ipynb" to calculate the regulatory importance of genes, sort (ascending order or descending order) and perform feature elimination.
+5. Run "5.1_classifier_comparison_all_genes.ipynb", "5.2_classifier_comparison_9_genes.ipynb" and "5.3_confusion matrix_9_genes.ipynb" to compare the performance of the classifiers.
+6. Run the code in the folder "6_Comparison_of_feature_selection_methods" to compare different feature selection algorithms.
