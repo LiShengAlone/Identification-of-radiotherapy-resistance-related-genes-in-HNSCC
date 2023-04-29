@@ -29,3 +29,6 @@ The RNA sequencing (RNA-seq) data of HNSCC patients can be obtained from [The Ca
 4. Run "4.1_GENIE3 sorting (ASC), feature elimination and classification.ipynb" and "4.2_GENIE3 sorting (DESC), feature elimination and classification.ipynb" to calculate the regulatory importance of genes, sort (ascending order or descending order) and perform feature elimination.
 5. Run "5.1_classifier_comparison_all_genes.ipynb", "5.2_classifier_comparison_9_genes.ipynb" and "5.3_confusion matrix_9_genes.ipynb" to compare the performance of the classifiers.
 6. Run the code in the folder "6_Comparison_of_feature_selection_methods" to compare different feature selection algorithms.
+
+## Contact us
+You can ask questions by sending an email to: [dunhuiliu@163.com](dunhuiliu@163.com).
